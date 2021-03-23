@@ -40,7 +40,6 @@ private:
 	Obstacle* m_pObstacle3;
 	void m_CheckShipLOS(DisplayObject* object);
 
-	DecisionTree* decisionTree;
 };
 
 

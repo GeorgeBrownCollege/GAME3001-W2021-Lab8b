@@ -106,15 +106,6 @@ void PlayScene::start()
 
 
 
-	// create a dummy DecisionTree
-	decisionTree = new DecisionTree();
-	decisionTree->setAgent(m_pShip);
-	decisionTree->Display();
-
-	std::cout << "------------------------" << std::endl;
-	std::cout << decisionTree->MakeDecision() << std::endl;
-	std::cout << "------------------------\n" << std::endl;
-
 }
 
 void PlayScene::GUI_Function() 
@@ -144,10 +135,6 @@ void PlayScene::GUI_Function()
 	{
 		m_pShip->getTransform()->position.x = shipPosition[0];
 		m_pShip->getTransform()->position.y = shipPosition[1];
-
-		std::cout << "------------------------" << std::endl;
-		std::cout << decisionTree->MakeDecision() << std::endl;
-		std::cout << "------------------------\n" << std::endl;
 	}
 	
 	static int targetPosition[] = { m_pTarget->getTransform()->position.x, m_pTarget->getTransform()->position.y };
