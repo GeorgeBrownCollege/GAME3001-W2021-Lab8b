@@ -4,6 +4,7 @@ FloatCondition::FloatCondition(const float min_value, const float max_value)
 {
 	m_minValue = min_value;
 	m_maxValue = max_value;
+	m_testValue = max_value + 1.0f;
 }
 
 FloatCondition::~FloatCondition()

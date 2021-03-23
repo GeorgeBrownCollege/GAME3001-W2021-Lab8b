@@ -11,19 +11,16 @@ public:
 	~Transition();
 
 	// getters
-	bool isTriggered() const;
 	Condition* getCondition() const;
 	State* getTargetState() const;
 
 	// setters
 	void setCondition(Condition* condition);
 	void setTargetState(State* state);
-	void setIsTriggered(bool state);
 	
 private:
 	Condition* m_condition{};
 	State* m_targetState{};
-	bool m_isTriggered{};
 };
 
 #endif /* defined (__TRANSITION__) */
