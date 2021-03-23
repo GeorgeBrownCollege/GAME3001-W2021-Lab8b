@@ -1,4 +1,5 @@
 #include "State.h"
+#include "Transition.h"
 
 State::State()
 = default;

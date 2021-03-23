@@ -24,6 +24,11 @@ Condition* Transition::getCondition() const
 	return m_condition;
 }
 
+State* Transition::getTargetState() const
+{
+	return m_targetState;
+}
+
 void Transition::setIsTriggered(bool state)
 {
 	m_isTriggered = state;
