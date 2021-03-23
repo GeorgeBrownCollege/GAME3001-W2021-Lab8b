@@ -195,6 +195,9 @@
     <ClCompile Include="..\src\Condition.cpp">
       <Filter>StateMachine\CoreComponents</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\FloatCondition.cpp">
+      <Filter>StateMachine\Conditions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\StartScene.h">
@@ -391,6 +394,9 @@
     </ClInclude>
     <ClInclude Include="..\src\Condition.h">
       <Filter>StateMachine\CoreComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FloatCondition.h">
+      <Filter>StateMachine\Conditions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
