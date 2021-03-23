@@ -182,7 +182,9 @@
     <ClCompile Include="..\src\RadiusCondition.cpp" />
     <ClCompile Include="..\src\SpaceShip.cpp" />
     <ClCompile Include="..\src\Sprite.cpp" />
+    <ClCompile Include="..\src\State.cpp" />
     <ClCompile Include="..\src\Tile.cpp" />
+    <ClCompile Include="..\src\Transition.cpp" />
     <ClCompile Include="..\src\UIControl.cpp" />
     <ClCompile Include="..\src\DisplayObject.cpp" />
     <ClCompile Include="..\src\EndScene.cpp" />
@@ -244,8 +246,10 @@
     <ClInclude Include="..\src\SoundType.h" />
     <ClInclude Include="..\src\SpaceShip.h" />
     <ClInclude Include="..\src\Sprite.h" />
+    <ClInclude Include="..\src\State.h" />
     <ClInclude Include="..\src\Tile.h" />
     <ClInclude Include="..\src\TileStatus.h" />
+    <ClInclude Include="..\src\Transition.h" />
     <ClInclude Include="..\src\TreeNode.h" />
     <ClInclude Include="..\src\TreeNodeType.h" />
     <ClInclude Include="..\src\UIControl.h" />
